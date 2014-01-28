@@ -1,0 +1,124 @@
+body {
+    background-image:url(industria.jpg);
+    background-attachment:fixed;
+    background-position:center center;
+    background-repeat:repeat;
+}
+h2 {
+    color: #0971B2;
+}
+h4 {
+    color: #0971B2;
+}
+#uberdiv {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+#header {
+    position: fixed;
+    height: 150px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+#logo {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+#logo img{
+    height: 130px;
+}
+#navigation {
+    width: 70%;
+    float: right;
+    padding-top: 40px;
+    text-align: right;
+}
+#navigation a {
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+#headerfill {
+    height: 200px;
+    width: 100%;
+}
+#tekst {
+    width: 80%;
+    float: left;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#events {
+    width: 15%;
+    float: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    position: fixed;
+    left: 75%;
+}
+#footer {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#sponsors {
+    padding: 10px;
+    text-align: center;
+}
+#sponsors img {
+    height: 125px;
+}
+#credits {
+    padding: 10px;
+}
+#subnavigation-left {
+    width: 15%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+}
+#subnavigation-right {
+    width: 15%;
+    left: 75%;
+    top: 45%;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+}
+.praeses {
+    width:60%;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    padding: 10px;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+#praeses-foto {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#praeses-foto img {
+    height: 100%;
+}
+#praeses-info {
+}
+.cl-effect-9 a {
+    font-size: 14px;
+    color: #0971B2;
+    font-family: verdana;
+    text-decoration: none;
+}
+.cl-effect-9 a span:last-child {
+    font-size: 10px;
+    color:#F00;
+    text-decoration: none;
+    font-family: verdana;
+}

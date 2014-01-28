@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39">
+    <meta charset="utf-8">
+    <title>
+        II, Industriële Ingenieurs
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <div id="uberdiv">
+        <div id="header">
+            <div id="logo">
+                <a href="index.html"><img src="images/wapenschild.png"></a>
+            </div>
+            <div id="navigation">
+                <nav class="cl-effect-6">
+                    <a href="index.html">Nieuws</a>
+                    <a href="kalender.html">Kalender</a>
+                    <a href="praesidium.html">praesidium</a>
+                    <a href="links.html">Links</a>
+                    <a href="woordenboek.html">Woordenboek</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <div id="headerfill">
+        </div>
+        <div id="content">
+            <div id="tekst">
+                <h2>Contact</h2>
+                <p>
+                    contactinfo van II
+                </p>
+            </div>
+            <div id="events">
+                <h4>Volgende evenementen</h4>
+                <p>
+                    2014-03-10: Quiznight</br>
+                    2014-03-11: Romeinse cantus</br>
+                    2014-03-12: Bierbowling
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="sponsors">
+                <a href="http://www.nbsound.be/">
+                    <img src="images/n&b.jpg">
+                </a>
+                <a href="https://www.kbc.be/PBL/CC028">
+                    <img src="images/kbclogo.gif">
+                </a>
+                <a href="http://www.vik.be/">
+                    <img src="images/vik.jpg">
+                </a>
+                <a href="http://www.tsnackske.be/">
+                    <img src="images/snackske.jpg">
+                </a>
+                <a href="http://www.partyprint.be/">
+                    <img src="images/partyprint.jpg">
+                </a>
+                <a href="http://www.cafedecampus.be/">
+                    <img src="images/campus.jpg">
+                </a>
+            </div>
+            <div id="credits">
+                Designed by: Jos Coeckelbergs, commercieel webverkeer & netwerkbeheer &copy;</br>
+                In samenwerking met: David Bertrand
+            </div>
+        </div>
+    </div>
+    <script src="scripts/jquery.js">
+    </script>
+    <script src="scripts/bootstrap.js">
+    </script>
+    <script>
+    $('a').click(function() {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 2000);
+        return false;
+    });
+    </script>
+</body>
+
+</html>
